@@ -75,7 +75,7 @@ module.exports.tests.bakery = function(test, common) {
   test('maps - bakery', function(t) {
     var stream = mapper( defaultMapping );
     stream.pipe( through.obj( function( doc, enc, next ){
-      t.deepEqual(doc.category, ['retail','food'], 'correctly mapped');
+      t.deepEqual(doc.category, ['store', 'shop_bakery'], 'correctly mapped');
       t.end(); // test will fail if not called (or called twice).
       next();
     }));
@@ -89,7 +89,7 @@ module.exports.tests.biergarten = function(test, common) {
   test('maps - biergarten', function(t) {
     var stream = mapper( defaultMapping );
     stream.pipe( through.obj( function( doc, enc, next ){
-      t.deepEqual(doc.category, ['nightlife','food'], 'correctly mapped');
+      t.deepEqual(doc.category, ['bar'], 'correctly mapped');
       t.end(); // test will fail if not called (or called twice).
       next();
     }));
@@ -99,11 +99,11 @@ module.exports.tests.biergarten = function(test, common) {
 
 module.exports.tests.international_airport = function(test, common) {
   var doc = new Document('osm','a',1);
-  doc.setMeta( 'tags', { 'aeroway': 'international' } );
-  test('maps - international airport', function(t) {
+  doc.setMeta( 'tags', { 'aeroway': 'airport' } );
+  test('maps - airport', function(t) {
     var stream = mapper( defaultMapping );
     stream.pipe( through.obj( function( doc, enc, next ){
-      t.deepEqual(doc.category, ['transport','transport:air','transport:air:airport'], 'correctly mapped');
+      t.deepEqual(doc.category, ['airport'], 'correctly mapped');
       t.end(); // test will fail if not called (or called twice).
       next();
     }));
@@ -113,11 +113,11 @@ module.exports.tests.international_airport = function(test, common) {
 
 module.exports.tests.public_transport = function(test, common) {
   var doc = new Document('osm','a',1);
-  doc.setMeta( 'tags', { 'public_transport': 'something' } );
+  doc.setMeta( 'tags', { 'railway': 'station' } );
   test('maps - public transport', function(t) {
     var stream = mapper( defaultMapping );
     stream.pipe( through.obj( function( doc, enc, next ){
-      t.deepEqual(doc.category, ['transport','transport:public'], 'correctly mapped');
+      t.deepEqual(doc.category, ['railway_station'], 'correctly mapped');
       t.end(); // test will fail if not called (or called twice).
       next();
     }));
@@ -131,7 +131,7 @@ module.exports.tests.combination_bakery_biergarten = function(test, common) {
   test('maps - combination bakery biergarten', function(t) {
     var stream = mapper( defaultMapping );
     stream.pipe( through.obj( function( doc, enc, next ){
-      t.deepEqual(doc.category, ['nightlife','food','retail'], 'correctly mapped');
+      t.deepEqual(doc.category, ['bar', 'store', 'shop_bakery'], 'correctly mapped');
       t.end(); // test will fail if not called (or called twice).
       next();
     }));
@@ -145,7 +145,7 @@ module.exports.tests.sport_wildcard = function(test, common) {
   test('maps - sports inherit recreation via wildcard', function(t) {
     var stream = mapper( defaultMapping );
     stream.pipe( through.obj( function( doc, enc, next ){
-      t.deepEqual(doc.category, ['recreation','entertainment'], 'correctly mapped');
+      t.deepEqual(doc.category, ['recreation','sport_rugby_union'], 'correctly mapped');
       t.end(); // test will fail if not called (or called twice).
       next();
     }));
@@ -159,7 +159,7 @@ module.exports.tests.argentinian_steak_restaurant = function(test, common) {
   test('maps - argentinian steak restaurant', function(t) {
     var stream = mapper( defaultMapping );
     stream.pipe( through.obj( function( doc, enc, next ){
-      t.deepEqual(doc.category, ['food','food:cuisine:argentinian'], 'correctly mapped');
+      t.deepEqual(doc.category, ['restaurant', 'argentinian_restaurant'], 'correctly mapped');
       t.end(); // test will fail if not called (or called twice).
       next();
     }));

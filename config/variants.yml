@@ -1,0 +1,884 @@
+
+#Google categories done:
+atm: atm
+airport: airport
+bank: bank
+bar: bar
+city_hall: city hall
+courthouse: courthouse
+electrician: electrician
+locksmith: locksmith
+parking: parking
+post_office: post office
+restaurant: restaurant
+school: school
+stadium: stadium
+drugstore: drugstore, drugs
+pharmacy: chemist, pharmacy, drugs, drug store, drug shop
+grocery_store: grocery, groceries, grocery store, bodega
+clothing_store: clothing, clothes, clothing store, clothing shop, fashion
+spa: spa, massage
+
+#osm aerialway
+gandola: gandola, cable car
+
+#osm amenity
+cafe: cafe, coffee shop, coffee
+dentist: dentist, dental, dental clinic
+doctor: doctor, doctor office, clinic
+casino: casino, gambling
+food_court: food court
+ice_cream: ice cream 
+college: college
+dancing_school: dancing school, dance school, dance academy
+driving_school: driving school, driving academy, student driver
+first_aid_school: first aid school, first aid academy
+kindergarten: kindergarten
+language_school: language school
+music_school: music school, music academy
+bicycle_rental: bicycle rental, bike rental
+boat_rental: boat rental
+charging_station: charging station, car charging, car charger
+ferry_terminal: ferry terminal, ferry, ferry station, ferries
+currency_exchange: currency exchange, currency, money changer, Wechsel, cambio, money exchange
+money_transfer: money transfer
+arts_centre: arts centre, arts,
+brothel: brothel, prostitutes, whorehouse
+community_centre: community centre
+planetarium: planetarium
+stripclub: stripclub, strip club
+theatre: theatre, theater
+fire_station: fire station, fire brigade
+police: police, police station
+prison: prison
+animal_boarding: animal boarding, pet boarding, pet hotel, pet sitting
+animal_breeding: animal breeding, breeder, pet breeder, pet breeding, dog breeder
+animal_shelter: animal shelter, pet shelter, pet rescue, animal rescue
+internet_cafe: internet cafe, cyber cafe
+monastery: monastery
+public_bath: public bath, bath house, bathhouse
+taxi_stand: taxi stand, taxi stop, taxi, taxy, taxies, taxy stand, taxy stop
+university: university, universities
+veterinary_care: vet, veterinary, veterinarian, vet clinic, vet hospital, veterinary clinic, veterinary hospital, animal clinic, animal hospital
+funeral_home: funeral home, crematorium, cremation, cremate, funeral hall, mortuary
+gas_station: gas station, gas pump, petrol pump, petrol station, gas
+cemetery: cemetery, cemeteries, grave yard, graves
+car_wash: car wash
+car_rental: car rental, car renting
+hospital: hospital, nursing home
+library: library, libraries
+movie_theater: movie theater, movie theatre, movies, cinema
+night_club: night club, nightclub
+bus_station: bus stand, bus station
+
+#osm building
+apartments: apartments, flats, condos, condominiums
+barracks: barracks
+cathedral: cathedral
+lodging: lodging, hotel, motel
+sports_centre: sports centre
+church: church, churches
+mosque: mosque
+synagogue: synagogue
+
+#osm cuisine
+afghan_restaurant: afghan restaurant, afghan food
+african_restaurant: african restaurant, african food
+american_restaurant: american restaurant, american food
+arab_restaurant: arab restaurant, arab food
+argentinian_restaurant: argentinian restaurant, argentinian food
+armenian_restaurant: armenian restaurant, armenian food
+asian_restaurant: asian restaurant, asian food
+australian_restaurant: australian restaurant, australian food
+austrian_restaurant: austrian restaurant, austrian food
+balkan_restaurant: balkan restaurant, balkan food
+bangladeshi_restaurant: bangladeshi restaurant, bangladeshi food
+basque_restaurant: basque restaurant, basque food
+bavarian_restaurant: bavarian restaurant, bavarian food
+belgian_restaurant: belgian restaurant, belgian food
+bolivian_restaurant: bolivian restaurant, bolivian food
+brazilian_restaurant: brazilian restaurant, brazilian food
+british_restaurant: british restaurant, british food
+bulgarian_restaurant: bulgarian restaurant, bulgarian food
+cajun_restaurant: cajun restaurant, cajun food
+cambodian_restaurant: cambodian restaurant, cambodian food
+cantonese_restaurant: cantonese restaurant, cantonese food
+caribbean_restaurant: caribbean restaurant, caribbean food
+chinese_restaurant: chinese restaurant, chinese food
+colombian_restaurant: colombian restaurant, colombian food
+croatian_restaurant: croatian restaurant, croatian food
+cuban_restaurant: cuban restaurant, cuban food
+czech_restaurant: czech restaurant, czech food
+danish_restaurant: danish restaurant, danish food
+dutch_restaurant: dutch restaurant, dutch food
+egyptian_restaurant: egyptian restaurant, egyptian food
+ethiopian_restaurant: ethiopian restaurant, ethiopian food
+european_restaurant: european restaurant, european food
+filipino_restaurant: filipino restaurant, filipino food
+french_restaurant: french restaurant, french food
+georgian_restaurant: georgian restaurant, georgian food
+german_restaurant: german restaurant, german food
+greek_restaurant: greek restaurant, greek food
+hawaiian_restaurant: hawaiian restaurant, hawaiian food
+hungarian_restaurant: hungarian restaurant, hungarian food
+indian_restaurant: indian restaurant, indian food
+indonesian_restaurant: indonesian restaurant, indonesian food
+irish_restaurant: irish restaurant, irish food
+italian_restaurant: italian restaurant, italian food
+jamaican_restaurant: jamaican restaurant, jamaican food
+japanese_restaurant: japanese restaurant, japanese food
+jewish_restaurant: jewish restaurant, jewish food
+korean_restaurant: korean restaurant, korean food
+lao_restaurant: lao restaurant, lao food
+latin_american_restaurant: latin american restaurant, latin american food
+lebanese_restaurant: lebanese restaurant, lebanese food
+malagasy_restaurant: malagasy restaurant, malagasy food
+malaysian_restaurant: malaysian restaurant, malaysian food
+mediterranean_restaurant: mediterranean restaurant, mediterranean food
+mexican_restaurant: mexican restaurant, mexican food
+middle_eastern_restaurant: middle eastern restaurant, middle eastern food
+mongolian_restaurant: mongolian restaurant, mongolian food
+moroccan_restaurant: moroccan restaurant, moroccan food
+nepalese_restaurant: nepalese restaurant, nepalese food
+oriental_restaurant: oriental restaurant, oriental food
+pakistani_restaurant: pakistani restaurant, pakistani food
+persian_restaurant: persian restaurant, persian food
+peruvian_restaurant: peruvian restaurant, peruvian food
+polish_restaurant: polish restaurant, polish food
+portuguese_restaurant: portuguese restaurant, portuguese food
+romanian_restaurant: romanian restaurant, romanian food
+russian_restaurant: russian restaurant, russian food
+salvadoran_restaurant: salvadoran restaurant, salvadoran food
+senegalese_restaurant: senegalese restaurant, senegalese food
+serbian_restaurant: serbian restaurant, serbian food
+singaporean_restaurant: singaporean restaurant, singaporean food
+south_indian_restaurant: south indian restaurant, south indian food
+southern_restaurant: southern restaurant, southern food
+spanish_restaurant: spanish restaurant, spanish food
+sri_lankan_restaurant: sri lankan restaurant, sri lankan food
+swedish_restaurant: swedish restaurant, swedish food
+swiss_restaurant: swiss restaurant, swiss food
+syrian_restaurant: syrian restaurant, syrian food
+taiwanese_restaurant: taiwanese restaurant, taiwanese food
+tex-mex_restaurant: tex-mex restaurant, tex-mex food
+thai_restaurant: thai restaurant, thai food
+tibetan_restaurant: tibetan restaurant, tibetan food
+tunisian_restaurant: tunisian restaurant, tunisian food
+turkish_restaurant: turkish restaurant, turkish food
+ukrainian_restaurant: ukrainian restaurant, ukrainian food
+uzbek_restaurant: uzbek restaurant, uzbek food
+venezuelan_restaurant: venezuelan restaurant, venezuelan food
+vietnamese_restaurant: vietnamese restaurant, vietnamese food
+western_restaurant: western restaurant, western food
+
+cuisine_bakery: bakery, bakeries
+cuisine_cafe: cafe, coffee shop, coffee
+
+cuisine_bar&grill: bar & grill
+cuisine_barbecue: barbecue, bbq
+cuisine_basque_ciderhouse: basque ciderhouse
+cuisine_bistro: bistro
+cuisine_brasserie: brasserie
+cuisine_breakfast: breakfast
+cuisine_brunch: brunch
+cuisine_buffet: buffet
+cuisine_buschenschank: buschenschank
+cuisine_deli: deli
+cuisine_dessert: dessert
+cuisine_diner: diner
+cuisine_fast_food: fast food
+cuisine_fine_dining: fine dining
+cuisine_fried_food: fried food
+cuisine_friture: friture
+cuisine_fusion: fusion food
+cuisine_grill: grill, live grill
+cuisine_heuriger: heuriger
+cuisine_international: international food
+cuisine_local: local food
+cuisine_lunch: lunch
+cuisine_mongolian_grill: mongolian grill
+cuisine_pub: pub
+cuisine_regional: regional food
+cuisine_snack: snack
+cuisine_steak_house: steak house
+cuisine_tapas: tapas
+cuisine_yakiniku: yakiniku
+
+cuisine_açaí: açaí, acai 
+cuisine_arepa: arepa
+cuisine_bagel: bagel
+cuisine_beef: beef
+cuisine_beef_bowl: beef bowl
+cuisine_beef_noodle: beef noodle
+cuisine_bubble_tea: bubble tea
+cuisine_burger: burger
+cuisine_cachapa: cachapa
+cuisine_cake: cake
+cuisine_chicken: chicken
+cuisine_chili: chili
+cuisine_chocolate: chocolate
+cuisine_churro: churro
+cuisine_coffee_shop: coffee shop
+cuisine_couscous: couscous
+cuisine_crepe: crepe
+cuisine_curry: curry
+cuisine_donut: donut
+cuisine_dumpling: dumpling
+cuisine_empanada: empanada
+cuisine_falafel: falafel
+cuisine_fish: fish
+cuisine_fish_and_chips: fish and chips, fish chips, fish & chips
+cuisine_fondue: fondue
+cuisine_fried_chicken: fried chicken, fry chicken
+cuisine_fries: fries
+cuisine_frozen_yogurt: frozen yogurt
+cuisine_gyoza: gyoza
+cuisine_gyros: gyros
+cuisine_hot_dog: hot dog
+cuisine_hotpot: hotpot
+cuisine_ice_cream: ice cream
+cuisine_juice: juice
+cuisine_kebab: kebab
+cuisine_meat: meat
+cuisine_noodle: noodle
+cuisine_pancake: pancake
+cuisine_pasta: pasta
+cuisine_pastry: pastry
+cuisine_piadina: piadina
+cuisine_pie: pie
+cuisine_pita: pita
+cuisine_pizza: pizza
+cuisine_poke: poke
+cuisine_potato: potato
+cuisine_pretzel: pretzel
+cuisine_ramen: ramen
+cuisine_salad: salad
+cuisine_sandwich: sandwich
+cuisine_sausage: sausage
+cuisine_savory_pancakes: savory pancakes
+cuisine_seafood: seafood
+cuisine_shawarma: shawarma, shwarma
+cuisine_smoothie: smoothie
+cuisine_smørrebrød: smørrebrød
+cuisine_soba: soba
+cuisine_soup: soup
+cuisine_souvlaki: souvlaki
+cuisine_steak: steak
+cuisine_sushi: sushi
+cuisine_tacos: tacos
+cuisine_takoyaki: takoyaki
+cuisine_tea: tea
+cuisine_udon: udon
+cuisine_waffle: waffle
+cuisine_wings: wings
+cuisine_yakitori: yakitori
+
+#osm craft
+craft_agricultural_engines: agricultural engines
+craft_atelier: atelier
+craft_bag_repair: bag repair
+craft_bakery: bakery, bakeries
+craft_basket_maker: basket maker
+craft_beekeeper: beekeeper, bee keeper
+craft_blacksmith: blacksmith, black smith
+craft_boatbuilder: boatbuilder, boat builder
+craft_bookbinder: bookbinder, book binder
+craft_brewery: brewery
+craft_builder: builder
+craft_cabinet_maker: cabinet maker
+craft_candlemaker: candlemaker, candle maker
+craft_car_painter: car painter
+craft_carpenter: carpenter
+craft_carpet_cleaner: carpet cleaner
+craft_carpet_layer: carpet layer
+craft_caterer: caterer, catering
+craft_chimney_sweeper: chimney sweeper, chimney cleaner
+craft_cleaning: cleaning, cleaner, cleaners
+craft_clockmaker: clockmaker, clock maker
+craft_confectionery: confectionery, confectionary
+craft_cooper: cooper
+craft_dental_technician: dental technician
+craft_distillery: distillery
+craft_door_construction: door construction, doors
+craft_dressmaker: dressmaker, dress maker
+craft_electrician: electrician
+craft_electronics_repair: electronics repair
+craft_elevator: elevator
+craft_embroiderer: embroiderer, embroidery
+craft_engraver: engraver
+craft_fence_maker: fence maker
+craft_floorer: floorer, floor layer
+craft_gardener: gardener
+craft_glassblower: glassblower
+craft_glaziery: glaziery
+craft_goldsmith: goldsmith
+craft_grinding_mill: grinding mill
+craft_handicraft: handicraft
+craft_hvac: hvac
+craft_insulation: insulation
+craft_interior_decorator: interior decorator, interior decoration
+craft_interior_work: interior work
+craft_jeweller: jeweller
+craft_joiner: joiner
+craft_key_cutter: key cutter
+craft_laboratory: laboratory
+craft_lapidary: lapidary
+craft_leather: leather
+craft_locksmith: locksmith
+craft_luthier: luthier
+craft_metal_construction: metal construction
+craft_mint: mint
+craft_musical_instrument: musical instrument
+craft_oil_mill: oil mill
+craft_optician: optician
+craft_organ_builder: organ builder
+craft_painter: painter
+craft_parquet_layer: parquet layer
+craft_paver: paver
+craft_pest_control: pest control
+craft_photographer: photographer
+craft_photographic_laboratory: photographic laboratory, photo lab
+craft_paperhanger: paperhanger
+craft_photovoltaic: photovoltaic, solar, solar panels, solar installation
+craft_piano_tuner: piano tuner
+craft_plasterer: plasterer
+craft_plumber: plumber
+craft_pottery: pottery
+craft_printer: printer, printing press
+craft_printmaker: printmaker
+craft_restoration: restoration
+craft_rigger: rigger
+craft_roofer: roofer, roof covering, roof sealing, roof, roof repair, roof change, roofing contractor
+craft_saddler: saddler
+craft_sailmaker: sailmaker
+craft_sawmill: sawmill
+craft_scaffolder: scaffolder
+craft_sculptor: sculptor
+craft_shoemaker: shoemaker
+craft_signmaker: signmaker
+craft_stand_builder: stand builder
+craft_stonemason: stonemason
+craft_stove_fitter: stove fitter
+craft_sun_protection: sun protection, awning, shutter
+craft_tailor: tailor
+craft_tatami: tatami
+craft_tiler: tiler, tile layer
+craft_tinsmith: tinsmith
+craft_toolmaker: toolmaker
+craft_turner: turner
+craft_upholsterer: upholsterer
+craft_watchmaker: watchmaker
+craft_water_well_drilling: water well drilling, water well driller, driller, drilling
+craft_weaver: weaver
+craft_welder: welder, welding
+craft_window_construction: window construction, window, window repair
+craft_winery: winery, wine, wines
+
+#osm office
+office_accountant: accounting, accountant, chartered accountant, tax filing
+office_advertising_agency: advertising agency, ad agency, advertisement agency
+office_architect: architect
+office_chamber: chamber
+office_charity: charity
+office_construction_company: construction company, construction, builder
+office_consulting: consulting, consultant
+office_courier: courier
+office_coworking: coworking
+office_diplomatic: embassy, embassies
+office_employment_agency: employment agency, employment
+office_engineer: engineer, engineering
+office_estate_agent: estate agent, real estate, real estate agency, real estate agencies, realtor
+office_financial: financial
+office_financial_advisor: financial advisor
+office_forestry: forestry
+office_geodesist: geodesist, surveyor, surveying, land survey, land surveying
+office_graphic_design: graphic design, graphics
+office_guide: tour guide, mountain guide, hiking guide, dive guide
+office_harbour_master: harbour master
+office_insurance: insurance, insurance agency, insurance agencies, insurance
+office_it: IT, information technology, IT company
+office_lawyer: lawyer, law office
+office_logistics: logistics, freight, freight forwarder, freight forwarding, trucking, trucking company, trucker
+office_mortgage: mortgage, mortgage broker, home loan
+office_moving_company: moving company, movers, moving
+office_newspaper: newspaper, news agency, newspaper office
+office_ngo: ngo, non govt organisation, non governmental organisation, non profit, non profit organisation
+office_notary: notary, notary public
+office_property_management: property management, property rental
+office_publisher: publisher, book publisher, publishing
+office_security: security, security guard, security agency, private security
+office_surveyor: surveyor, surveying, land survey, land surveying
+office_tax_advisor: tax advisor, tax expert, tax filing
+office_therapist: therapist, therapy
+office_travel_agent: travel agent, travel agency, tours, air tickets, tour booking
+office_tutoring: tutoring, tution, tutor
+office_visa: visa, visa help, visa expert
+
+#osm industrial:
+industrial_trucking: truck yard
+industrial_machine_shop: maching shop, machining
+
+#osm highway
+bus_stop: bus stop, transit station, transit stop
+
+#osm railway
+railway_station: train station, train stop, subway station, subway stop, railway station, railway stop
+tram_stop: tram station, tram stop
+
+#osm leisure
+leisure_adult_gaming_centre: gaming, adult gaming, casino, slot machines, gambling
+leisure_amusement_arcade: video games, video gaming, driving simulators, pinball machines, gaming arcade, arcade, video arcade
+leisure_bandstand: bandstand
+leisure_bathing_place: bathing place
+leisure_beach_resort: beach resort
+leisure_bird_hide: bird hide
+leisure_bowling_alley: bowling, bowling alley
+leisure_dance: dance, dancing
+leisure_disc_golf_course: disc golf course, disc golf, disc golfing
+leisure_dog_park: dog park
+leisure_escape_game: escape game, escape room
+leisure_fitness_centre: gym, fitness center, gymnasium
+leisure_garden: garden
+leisure_golf_course: golf course, golf, golfing, golf club
+leisure_hackerspace: hackerspace, hacker space
+leisure_horse_riding: horse riding
+leisure_ice_rink: ice rink, ice skating
+leisure_marina: marina
+leisure_miniature_golf: miniature golf, mini golf, mini golf course, mini golfing
+leisure_nature_reserve: nature reserve
+leisure_park: park
+leisure_pitch: pitch
+leisure_playground: playground, play ground
+leisure_resort: resort
+leisure_sauna: sauna
+leisure_slipway: slipway
+leisure_sports_centre: sports centre
+leisure_sports_hall: sports hall
+leisure_stadium: stadium
+leisure_summer_camp: summer camp
+leisure_swimming_area: swimming area
+leisure_swimming_pool: swimming pool
+leisure_tanning_salon: tanning salon, tanning
+leisure_track: track, running, jogging, walking track
+leisure_trampoline_park: trampoline park
+leisure_water_park: water park
+leisure_wildlife_hide: wildlife hide
+
+#osm tourism
+tourist_attraction: tourist attraction
+tourism_alpine_hut: alpine hut, mountain hut
+tourism_aquarium: aquarium
+tourism_camp_pitch: camp pitch
+tourism_camp_site: camp site, campground, camping, camp ground
+tourism_caravan_site: caravan site, rv park, rv camp
+tourism_chalet: chalet, cottage, holiday cottage, vacation cottage
+tourism_gallery: gallery, art gallery, art galleries
+tourism_guest_house: guest house, bnb, b&b, b and b, bed and breakfast, bed & breakfast, bed n breakfast
+tourism_hostel: hostel
+tourism_information: visitor center, visitor centre, visitor information, visitor information centre, visitor information center, tourist information, tourist information centre, tourist information center
+tourism_museum: museum
+tourism_picnic_site: picnic site, picnic
+tourism_theme_park: amusement park, theme park, rides
+tourism_viewpoint: viewpoint, view point, overlook, observation point, lookout, viewing point, scenic area or vista point
+tourism_wilderness_hut: wilderness hut, backcountry hut is
+tourism_zoo: zoo
+
+#osm shop
+store: store
+shop_alcohol: liquor store, liquor shop, alcohol
+shop_bakery: bakery, bakeries
+shop_beverages: liquor store, liquor shop, alcohol
+shop_brewing_supplies: brewing supplies
+shop_butcher: butcher
+shop_cheese: cheese
+shop_chocolate: chocolate, chocolate shop
+shop_coffee: coffee, coffee shop, coffee store
+shop_confectionery: confectionery, candy, candy shop, candy store
+shop_convenience: convenience, convenience store, general store
+shop_dairy: dairy
+shop_deli: deli
+shop_farm: farm produce
+shop_frozen_food: frozen food
+shop_health_food: health food
+shop_ice_cream: ice cream, ice cream shop
+shop_nuts: nuts
+shop_pasta: pasta
+shop_pastry: pastry
+shop_seafood: seafood
+shop_spices: spices
+shop_tea: tea, tea shop, tea store
+shop_wine: wine
+shop_department_store: department store
+shop_general: general store, convenience store
+shop_kiosk: kiosk
+shop_mall: mall, shopping mall
+shop_supermarket: supermarket
+shop_wholesale: wholesale, cash and carry, cash & carry, cash n carry
+shop_baby_goods: baby goods, prams, cots, toys, baby, babies, baby store, baby supplies
+shop_bag: bags, bag store, bag shop
+shop_boutique: boutique
+shop_fabric: fabric, fabric shop, fabric store
+shop_fashion_accessories: fashion accessories
+shop_jewelry: jewelry, jewelry store, jewelry shop
+shop_leather: leather, leather store, leather shop
+shop_sewing: sewing
+shop_shoes: shoes, shoe store, shoe shop
+shop_shoe_repair: shoe repair
+shop_tailor: tailor, tailor shop
+shop_watches: watches, watch shop, watch store
+shop_wool: wool, wool shop, wool store
+shop_charity: charity shop
+shop_second_hand: second hand, second hard store, second hand shop
+shop_variety_store: variety_store
+shop_beauty: beauty, beauty shop, nail salon, beauty salon, beauty parlour, nails
+shop_chemist: chemist
+shop_cosmetics: cosmetics
+shop_erotic: erotic, sex toys, adult store, sex store, adult movies, adult magazines, fetish, fetish wear, erotic lingerie, porn, pornography
+shop_hairdresser: hairdresser, hair dresser, hair care, salon, barber, hair cut, hair salong
+shop_hairdresser_supply: hairdresser supply, salon supply
+shop_hearing_aids: hearing aids
+shop_herbalist: herbalist
+shop_massage: massage
+shop_medical_supply: medical supply
+shop_nutrition_supplements: nutrition supplements, supplements
+shop_optician: optician, eyeglasses, contact lenses, eye glasses
+shop_perfumery: perfumes
+shop_tattoo: tattoo
+shop_agrarian: agrarian
+shop_appliance: appliance, washing machines, fridges, cookers, ovens, fans, appliance store
+shop_bathroom_furnishing: bathroom furnishing
+shop_country_store: country store
+shop_doityourself: doityourself, diy, do it yourself, hand tools, power tools, furniture, decoration, bathroom fittings, kitchen fittings, garden furniture, electrical goods, fencing, flooring, home improvement, redecorating, gardening, home goods store, home goods
+shop_electrical: electrical, electrical supplies
+shop_energy: butane, cylinder, butane cylinder
+shop_fireplace: fireplace
+shop_florist: florist, flowers, flower shop, flower store
+shop_garden_centre: garden centre, gardening, garden center
+shop_garden_furniture: garden furniture, outdoor furniture
+shop_gas: argon, oxygen, acetylene, nitrogen, carbon dioxide
+shop_glaziery: glazing, window glazing
+shop_groundskeeping: groundskeeping, lawnmowers, chainsaws, small tractors, lawn, lawn supplies
+shop_hardware: hardware, hardware store, hardware shop, tools
+shop_houseware: houseware, crockery, cutlery, kitchenware, appliances
+shop_locksmith: locksmith
+shop_paint: paint, paints
+shop_pottery: pottery
+shop_security: security, security systems, burglar alarms, vaults, locking systems, video surveillance, firefighting, alarm systems, fire alarm, cctv, fire extinguisher
+shop_tool_hire: tool hire, tool rental
+shop_antiques: antiques
+shop_bed: bed, beds, bedding, mattress, mattresses
+shop_candles: candles
+shop_carpet: carpet
+shop_curtain: curtain
+shop_doors: doors
+shop_flooring: flooring
+shop_furniture: furniture store, furniture, furniture shop
+shop_household_linen: household linen, bed sheets, sheets, blankets, bedspreads, pillowcases, washcloths, towels, robes, dishcloths, dishtowels, aprons, curtains, handkerchieves, tablecloths, napkins, placemats
+shop_interior_decoration: interior decoration
+shop_kitchen: kitchen studio
+shop_lighting: lighting, lighting shop, lighting store, lamps, lighting fixtures
+shop_tiles: tiles
+shop_window_blind: window blind, blinds
+shop_computer: computer
+shop_electronics: electronics store, electronics
+shop_hifi: hifi
+shop_mobile_phone: mobile phone
+shop_printer_ink: printer ink
+shop_radiotechnics: radiotechnics
+shop_vacuum_cleaner: vacuum cleaner
+shop_atv: atv, atv shop, atv store
+shop_bicycle: bicycle, bicycle store, bike store, cycle store, bicycle shop, bike shop, cycle shop
+shop_boat: boat shop, boat store, boat dealership, boats, boat rental, boat repair
+shop_car: car dealer, cars, car dealership, dealership, car sale, car shop, auto sales
+shop_car_parts: car parts, auto parts
+shop_car_repair: car repair, mechanic
+shop_caravan: caravans, motorhomes, recreational vehicles, rvs, rv shop
+shop_fishing: fishing shop, fishing store
+shop_fuel: wood, coal, camping gas, firewood
+shop_golf: golf store, golf shop, golf supplies, golfing supplies
+shop_hunting: hunting store, hunting supplies, hunting shop
+shop_military_surplus: military surplus
+shop_motorcycle: motorcycle store, motorcycle sales, motorcycle shop, motorcycles
+shop_motorcycle_repair: motorcycle repair
+shop_outdoor: outdoors store, camping supplies, hiking supplies, hiking store, camping shop, camping store
+shop_scuba_diving: scuba diving shop
+shop_ski: ski equipment, ski rental, ski repair
+shop_snowmobile: snowmobiles, snowmobile sales
+shop_sports: sports shop, sports store
+shop_surf: surf store, surf shop, surfing store, surfing shop, surfing supplies
+shop_swimming_pool: swimming pool supplies, swimming pool equipment
+shop_trailer: trailer store, trailer repair
+shop_truck: truck sales, truck store
+shop_tyres: tyres, tires, tyre stor, tire store, tyre shop, tire shop
+shop_art: art
+shop_camera: camera store, camera shop, cameras
+shop_collector: collector
+shop_craft: crafts supply, crafts store, arts supply, arts store
+shop_frame: frame store, frame shop
+shop_games: games shop, games store, boardgames, board games
+shop_music: music store, music shop
+shop_musical_instrument: musical instrument
+shop_photo: photography, photography shop, photography store, photo shop, photo store
+shop_trophy: trophy, trophies, plaques, awards
+shop_video: video shop, video store, movie rental, movie store, movie shop
+shop_video_games: video games, video games shop, video games store
+shop_anime: anime
+shop_books: book store, book shop, books, newspapers, magazines, novels
+shop_gift: gifts
+shop_lottery: lottery
+shop_newsagent: newsagent, newspapers
+shop_stationery: stationery, office supplies
+shop_ticket: tickets
+shop_bookmaker: bookmaker
+shop_cannabis: cannabis, weed, marijuana, smoke shop
+shop_copyshop: copyshop, photocopy, photostat, printing, self printing, printouts
+shop_dry_cleaning: dry cleaning, dry clean, dry cleaner
+shop_e-cigarette: e-cigarette, vape, vapes, vaping
+shop_funeral_directors: funeral director
+shop_laundry: laundry, laundramat
+shop_money_lender: money lender, money lending, loans, payday loans
+shop_outpost: outpost
+shop_party: party, costumes, party supplies, balloons, birthday, party city
+shop_pawnbroker: pawnbroker, pawn, pawn shop
+shop_pest_control: pest control
+shop_pet: pet store, pet shop
+shop_pet_grooming: pet grooming, dog grooming
+shop_pyrotechnics: pyrotechnics
+shop_religion: church shop
+shop_storage_rental: storage, self storage, storage rental
+shop_tobacco: tobacco, cigarette, cigars
+shop_toys: toys, kids toys, children toys
+shop_weapons: weapons, guns, firearms, ammo, ammunition, bullets, gun shop, gun store, pistols, revolvers, rifles, shotguns, hand guns
+
+#osm sport
+recreation: recreation, sports
+sport_9pin: 9pin
+sport_10pin: 10pin
+sport_aerobics: aerobics
+sport_american_football: american football
+sport_aikido: aikido
+sport_archery: archery
+sport_athletics: athletics
+sport_australian_football: australian football
+sport_badminton: badminton
+sport_bandy: bandy
+sport_baseball: baseball
+sport_basketball: basketball
+sport_beachvolleyball: beach volleyball
+sport_biathlon: biathlon
+sport_billiards: billiards, pool
+sport_bmx: bmx
+sport_bobsleigh: bobsleigh
+sport_boules: boules
+sport_boxing: boxing
+sport_bullfighting: bull fighting
+sport_canadian_football: canadian football
+sport_cliff_diving: cliff diving
+sport_climbing: climbing, rock climbing
+sport_climbing_adventure: climbing adventure, adventure park, ropes courses, climbing adventure, zip-line, treetop adventure
+sport_cockfighting: cockfighting
+sport_cricket: cricket
+sport_crossfit: crossfit
+sport_croquet: croquet
+sport_curling: curling
+sport_cycle_polo: cycle polo
+sport_cycling: cycling
+sport_darts: darts
+sport_dog_agility: dog agility
+sport_dog_racing: dog racing
+sport_dragon_boat: dragon boat
+sport_equestrian: equestrian
+sport_fencing: fencing
+sport_field_hockey: field hockey
+sport_fitness: fitness, gym, fitness centre
+sport_floorball: floorball
+sport_four_square: four_square
+sport_football: football
+sport_free_flying: free flying, hand gliding, paragliding
+sport_futsal: futsal
+sport_gaelic_games: gaelic games
+sport_gymnastics: gymnastics
+sport_handball: handball
+sport_hapkido: hapkido
+sport_hiking: hiking
+sport_hockey: hockey
+sport_horse_racing: horse racing
+sport_ice_hockey: ice hockey
+sport_ice_skating: ice skating
+sport_judo: judo
+sport_karate: karate
+sport_karting: karting
+sport_kickboxing: kickboxing
+sport_kitesurfing: kitesurfing
+sport_korfball: korfball
+sport_krachtbal: krachtbal
+sport_lacrosse: lacrosse
+sport_laser_tag: laser tag
+sport_martial_arts: martial arts
+sport_miniature_golf: miniature golf, mini golf
+sport_motocross: motocross
+sport_motor: motorsport
+sport_netball: netball
+sport_obstacle_course: obstacle course
+sport_orienteering: orienteering
+sport_paddle_tennis: paddle tennis
+sport_paintball: paintball
+sport_parachuting: parachuting
+sport_paragliding: paragliding
+sport_parkour: parkour
+sport_pelota: pelota
+sport_pesäpallo: pesäpallo
+sport_pickleball: pickleball
+sport_pilates: pilates
+sport_pole_dance: pole dance, pole dancing
+sport_racquet: racquet
+sport_rc_car: rc car, remote control car
+sport_roller_skating: roller skating
+sport_rowing: rowing
+sport_rugby_league: rugby league
+sport_rugby_union: rugby union
+sport_running: running
+sport_sailing: sailing
+sport_scuba_diving: scuba diving
+sport_shooting: shooting
+sport_shot-put: shot-put, shot put
+sport_skateboard: skateboard, skate boarding
+sport_ski_jumping: ski jumping
+sport_skiing: skiing
+sport_snooker: snooker
+sport_soccer: soccer
+sport_softball: softball
+sport_speedway: speedway
+sport_squash: squash
+sport_sumo: sumo
+sport_surfing: surfing
+sport_swimming: swimming
+sport_table_tennis: table tennis
+sport_table_soccer: table soccer, foosball, fussball, kicker, or tecball
+sport_taekwondo: taekwondo
+sport_tennis: tennis
+sport_teqball: teqball
+sport_toboggan: toboggan
+sport_trampoline: trampoline
+sport_ultralight_aviation: ultralight aviation
+sport_volleyball: volleyball
+sport_wakeboarding: wakeboarding
+sport_water_polo: water polo
+sport_water_ski: water ski, waterskiing
+sport_weightlifting: weightlifting
+sport_windsurfing: windsurfing, wind surfing
+sport_wrestling: wrestling
+sport_yoga: yoga
+sport_zurkhaneh_sport: zurkhaneh
+
+#osm religion
+religion_buddhist: buddhist, buddist temple, buddhist temples, budha temple
+religion_christian: christian, christian church, church, churches
+religion_hindu: hindu, hindu temple, hindu temples, mandir
+religion_jain: jain, jain temple, jain temples, jain mandir
+religion_jewish: jewish, jew temple, jew synagogue, jew
+religion_muslim: muslim, islam, muslim mosque
+religion_pagan: pagan, pagan temple
+religion_shinto: shinto
+religion_sikh: sikh, sikh temple, gurdwara, gurudwara
+religion_taoist: taoist
+religion_zoroastrian: zoroastrian
+
+#osm healthcare
+healthcare_alternative: alternative medicine
+healthcare_audiologist: audiologist, hearing aids
+healthcare_birthing_centre: birthing centre, birthing center, midwife
+healthcare_blood_bank: blood bank
+healthcare_blood_donation: blood donation
+healthcare_community_health_worker: community health worker
+healthcare_counselling: counselling
+healthcare_dialysis: dialysis
+healthcare_hospice: hospice
+healthcare_laboratory: laboratory, medical lab, medical laboratory, blood testing
+healthcare_midwife: midwife
+healthcare_occupational_therapist: occupational therapist, occupational therapy
+healthcare_optometrist: optometrist, eye doctor
+healthcare_physiotherapist: physiotherapist, physiotherapy
+healthcare_podiatrist: podiatrist
+healthcare_psychotherapist: psychotherapist, psychotherapy
+healthcare_rehabilitation: rehabilitation
+healthcare_sample_collection: medical lab, medical laboratory
+healthcare_speech_therapist: speech therapist, speech therapy
+healthcare_vaccination_centre: vaccination centre, vaccination, vaccination center
+
+#osm healthcare:speciality
+health_s_allergology: allergology, allergologist, allergy clinic, allergies
+health_s_anaesthetics: anaesthetics, anaesthesia
+health_s_cardiology: cardiology, heart doctor, cardiologist, cardiac doctor
+health_s_cardiothoracic_surgery: cardiothoracic surgery, cardiac surgery, heart surgery, heart center, heart centre
+health_s_child_psychiatry: child psychiatry, child psychiatrist
+health_s_community: community medicine, public health
+health_s_dermatology: dermatology, dermatologist, skin doctor, skin disease, skin clinic, acne treatment
+health_s_dermatovenereology: dermatovenereology
+health_s_diagnostic_radiology: diagnostic radiology, xray, clinical radiology, medical imaging, ct scan, ultrasound, mri, mri scan
+health_s_emergency: emergency
+health_s_endocrinology: endocrinology, harmones, endocrinologist, harmone therapy, harmone replacement, harmone replacement therapy, hrt
+health_s_gastroenterology: gastroenterology, gastroenterologist, stomach doctor
+health_s_general: general medicine
+health_s_geriatrics: geriatrics, geriatric medicine
+health_s_gynaecology: gynaecology, gynaecologist, women health, women doctor
+health_s_haematology: haematology, haematologist
+health_s_hepatology: hepatology
+health_s_infectious_diseases: infectious diseases
+health_s_intensive: intensive care, ICU, intensive care unit, intensive care medicine
+health_s_internal: internal medicine, general medicine, family doctor
+health_s_dental_oral_maxillo_facial_surgery: dental surgery, oral surgery, maxillofacial surgery
+health_s_neonatology: neonatology, neonatologist
+health_s_nephrology: nephrology, nephrologist
+health_s_neurology: neurology, neurologist
+health_s_neuropsychiatry: neuropsychiatry, neuropsychiatrist
+health_s_neurosurgery: neurosurgery, neurosurgeon
+health_s_nuclear: nuclear medicine
+health_s_occupational: occupational medicine
+health_s_oncology: oncology, oncologist, cancer, cancer center, cancer centre, cancer doctor, cancer treatment
+health_s_ophthalmology: ophthalmology, ophthalmologist, eye doctor
+health_s_orthodontics: orthodontics, orthodontist
+health_s_orthopaedics: orthopaedics, orthopaedist
+health_s_otolaryngology: otolaryngology
+health_s_paediatric_surgery: paediatric surgery, paediatric surgeon
+health_s_paediatrics: paediatrics, paediatrist
+health_s_palliative: palliative care
+health_s_pathology: pathology, pahologist
+health_s_physiatry: physiatry, physical medicine, sports medicine, physical rehabilation
+health_s_plastic_surgery: plastic surgery, plastic surgeon
+health_s_podiatry: podiatry
+health_s_proctology: proctology, proctologist
+health_s_psychiatry: psychiatry, psychiatrist
+health_s_pulmonology: pulmonology, pulmonologist
+health_s_radiology: radiology, radiologist
+health_s_radiotherapy: radiotherapy, radiotherapist
+health_s_rheumatology: rheumatology, rheumatologist
+health_s_stomatology: stomatology, stomatologist
+health_s_surgery: surgery, general surgery, surgeon, general surgeon
+health_s_transplant: transplant surgery
+health_s_trauma: trauma surgery, trauma center, trauma centre
+health_s_tropical: tropical medicine
+health_s_urology: urology, urologist
+health_s_vascular_surgery: vascular surgery, vascular surgeon
+health_s_venereology: venereology, venereologist
+health_s_abortion: abortion, abortion clinic
+health_s_fertility: fertility, fertility clinic
+health_s_vaccination: vaccination, vaccination clinic
+health_s_acupuncture: acupuncture
+health_s_anthroposophical: anthroposophical
+health_s_applied_kinesiology: applied kinesiology
+health_s_aromatherapy: aromatherapy
+health_s_ayurveda: ayurveda
+health_s_chiropractic: chiropractic
+health_s_herbalism: herbalism
+health_s_homeopathy: homeopathy
+health_s_hydrotherapy: hydrotherapy
+health_s_hypnosis: hypnosis
+health_s_naturopathy: naturopathy
+health_s_osteopathy: osteopathy
+health_s_reflexology: reflexology
+health_s_reiki: reiki
+health_s_shiatsu: shiatsu
+health_s_traditional_chinese_medicine: traditional chinese medicine, chinese medicine
+health_s_tuina: tuina
+health_s_unani: unani

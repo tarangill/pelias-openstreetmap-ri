@@ -36,6 +36,7 @@
   "dependencies": {
     "async": "^3.0.1",
     "combined-stream": "^1.0.5",
+    "elasticsearch": "^16.0.0",
     "extend": "^3.0.0",
     "is-object": "^1.0.1",
     "iso-639-3": "^1.0.0",
@@ -49,7 +50,8 @@
     "pelias-model": "^9.2.0",
     "pelias-wof-admin-lookup": "^7.8.0",
     "through2": "^3.0.0",
-    "through2-sink": "^1.0.0"
+    "through2-sink": "^1.0.0",
+    "yaml": "2.4.1"
   },
   "devDependencies": {
     "colors": "^1.1.2",
