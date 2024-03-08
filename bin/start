@@ -1,4 +1,4 @@
 #!/bin/bash
 
-exec node util/import_categories.js
+node util/import_categories.js
 exec node --max_old_space_size=8000 index.js
