@@ -67,6 +67,12 @@ module.exports = function(){
         }
       });
 
+      // force the english name to be the default name.
+      // why? for example all airports in dubai have default name set in arabic: https://www.openstreetmap.org/way/214188740
+      if(doc.getName('en')){
+        doc.setName('default', doc.getName('en'));
+      }
+
       // Handle the case where no default name was set but there were
       // other names which we could use as the default.
       if( !doc.getName('default') ){
