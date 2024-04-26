@@ -168,7 +168,7 @@ module.exports.tests.use_official_as_fallback_default = function (test, common) 
   test('maps - use name:official as fallback default', function (t) {
     var stream = mapper();
     stream.pipe(through.obj(function (doc, enc, next) {
-      t.equal(doc.getName('default'), 'test3', 'official_name used as fallback');
+      t.equal(doc.getName('default'), 'test2', 'official_name used as fallback');
       t.equal(doc.getName('ru'), 'test1', 'correctly mapped');
       t.equal(doc.getName('en'), 'test2', 'correctly mapped');
       t.end(); // test will fail if not called (or called twice).
