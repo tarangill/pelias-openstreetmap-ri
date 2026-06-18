@@ -6,7 +6,7 @@
   },
   "author": "pelias",
   "description": "Pelias openstreetmap utilities",
-  "homepage": "https://github.com/mapzen/pelias-openstreetmap",
+  "homepage": "https://github.com/pelias/openstreetmap",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,8 @@
     "end-to-end": "export NODE_ENV=test && node test/end-to-end.js;",
     "lint": "jshint .",
     "start": "./bin/start",
+    "taginfo": "node scripts/generate_taginfo.js",
+    "prepublishOnly": "npm run taginfo",
     "test": "npm run units",
     "ci": "node ./test/ci-config.js && npm test && npm run end-to-end",
     "units": "./bin/test",
@@ -22,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mapzen/pelias-openstreetmap.git"
+    "url": "https://github.com/pelias/openstreetmap.git"
   },
   "keywords": [
     "pelias",
@@ -31,7 +33,7 @@
     "elasticsearch"
   ],
   "bugs": {
-    "url": "https://github.com/mapzen/pelias-openstreetmap/issues"
+    "url": "https://github.com/pelias/openstreetmap/issues"
   },
   "dependencies": {
     "async": "^3.0.1",
@@ -43,12 +45,12 @@
     "joi": "^14.0.0",
     "lodash": "^4.17.4",
     "pbf2json": "^6.9.0",
-    "pelias-blacklist-stream": "^1.0.0",
+    "pelias-blacklist-stream": "^1.3.0",
     "pelias-config": "^6.0.0",
-    "pelias-dbclient": "^3.0.0",
-    "pelias-logger": "^1.2.1",
-    "pelias-model": "^10.0.0",
-    "pelias-wof-admin-lookup": "^7.8.0",
+    "pelias-dbclient": "^3.1.0",
+    "pelias-logger": "^1.6.0",
+    "pelias-model": "^10.6.0",
+    "pelias-wof-admin-lookup": "^7.17.0",
     "through2": "^3.0.0",
     "through2-sink": "^1.0.0",
     "yaml": "2.4.1"
