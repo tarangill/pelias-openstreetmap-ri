@@ -105,7 +105,7 @@ const mapping = {
     'church':                 ['church'],
     'mosque':                 ['mosque'],
     'synagogue':              ['synagogue'],
-    'gurdwara':               ['religion_sikhreligion_sikh'],
+    'gurdwara':               ['religion_sikh'],
 
     //Sports
     'stadium':                ['stadium'],

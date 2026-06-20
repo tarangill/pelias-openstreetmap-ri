@@ -24,7 +24,7 @@ echo "==> Building and pushing ${IMAGE_NAME}..."
 
 docker buildx build \
   --platform "$PLATFORMS" \
-  --tag "$REGISTRY/$IMAGE_NAME:1.0" \
+  --tag "$REGISTRY/$IMAGE_NAME:1.1" \
   --push \
   .
 
